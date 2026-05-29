@@ -14,7 +14,7 @@ function ProductCard({ product, onAdd }) {
           <h3 className="mt-2 text-lg font-semibold text-slate-900">{product.name}</h3>
         </div>
         <div className="flex items-center justify-between gap-3">
-          <span className="text-xl font-semibold text-slate-900">R$ {product.price.toFixed(2)}</span>
+          <span className="text-xl font-semibold text-slate-900">AOA {product.price.toFixed(2)}</span>
           <button
             type="button"
             onClick={() => onAdd(product)}

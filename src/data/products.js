@@ -1,65 +1,46 @@
+import coxinha from '../assents/coxinhas de frango.png'
+import picanha from '../assents/picanha.webp'
+import caixaDeCoxa from '../assents/caixa de coxa.jpg'  
+import asinha from '../assents/asinhas de frango.jpg'
+import peixe from '../assents/peixe.jpeg'
+import frangoInteiro from '../assents/frango_Agranel.jpg'
+
+
 export const products = [
   {
     id: 'p1',
-    name: 'Filé de Tilápia',
-    category: 'Peixe',
-    price: 41.9,
-    image: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80',
+    name: 'Coxinhas de frango',
+    price: 2600,
+    image: coxinha,
   },
   {
     id: 'p2',
-    name: 'Coxa de Frango Congelada',
-    category: 'Frango',
-    price: 28.5,
-    image: 'https://images.unsplash.com/photo-1603052875431-c5c8a3fabb69?auto=format&fit=crop&w=800&q=80',
+    name: 'Picanha',
+    price: 22400,
+    image: picanha,
   },
   {
     id: 'p3',
-    name: 'Picanha Bovina',
-    category: 'Carne',
-    price: 89.9,
-    image: 'https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80',
+    name: 'Caixa de Coxas de Frango',
+    price: 24797,
+    image: caixaDeCoxa,
   },
   {
     id: 'p4',
-    name: 'Refrigerante Pack 12',
-    category: 'Bebidas',
-    price: 54.0,
-    image: 'https://images.unsplash.com/photo-1571091655789-a0aab8b2d4af?auto=format&fit=crop&w=800&q=80',
+    name: 'Asinha de frango',
+    price: 6250,
+    image: asinha,
   },
   {
     id: 'p5',
-    name: 'Batata Palha Congelada',
-    category: 'Congelados',
-    price: 17.5,
-    image: 'https://images.unsplash.com/photo-1481931715705-36f0bb207a2a?auto=format&fit=crop&w=800&q=80',
+    name: 'Peixe Congelado',
+    price:7890,
+    image: peixe,
   },
   {
     id: 'p6',
-    name: 'Salmão em Posta',
-    category: 'Peixe',
-    price: 65.0,
-    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 'p7',
-    name: 'Bife de Patinho',
-    category: 'Carne',
-    price: 46.0,
-    image: 'https://images.unsplash.com/photo-1543353071-873f17a7a088?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 'p8',
-    name: 'Filé de Peito de Frango',
-    category: 'Frango',
-    price: 34.0,
-    image: 'https://images.unsplash.com/photo-1604908177522-ac8e2a68d106?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 'p9',
-    name: 'Mix de Legumes Congelados',
-    category: 'Congelados',
-    price: 19.9,
-    image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
+    name: 'Frango Agranel',
+    price:7890,
+    image: frangoInteiro,
   },
 ]

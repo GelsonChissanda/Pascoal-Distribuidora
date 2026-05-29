@@ -1,4 +1,4 @@
-const PHONE = '244999999999'
+const PHONE = '244972406191'
 
 export function createWhatsAppLink(items, total) {
   const lines = [
