@@ -12,7 +12,7 @@ function Footer() {
           <a href="/" className="text-sm transition hover:text-brand-700">Home</a>
           <a href="/products" className="text-sm transition hover:text-brand-700">Produtos</a>
           <a href="/checkout" className="text-sm transition hover:text-brand-700">Checkout</a>
-          <a href="https://wa.me/244999999999" target="_blank" rel="noreferrer" className="text-sm font-semibold text-brand-700 transition hover:text-brand-900">
+          <a href="https://wa.me/244922646414" target="_blank" rel="noreferrer" className="text-sm font-semibold text-brand-700 transition hover:text-brand-900">
             WhatsApp
           </a>
         </div>

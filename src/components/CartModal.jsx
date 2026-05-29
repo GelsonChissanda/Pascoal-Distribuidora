@@ -67,7 +67,7 @@ function CartModal({ isOpen, onClose }) {
         <div className="mt-6 flex flex-col gap-4 border-t border-slate-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-sm text-slate-500">Total estimado</p>
-            <p className="mt-1 text-3xl font-semibold text-slate-900">KZs {total.toFixed(2)}</p>
+            <p className="mt-1 text-3xl font-semibold text-blue-900">KZs {total.toFixed(2)}</p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
             <button
